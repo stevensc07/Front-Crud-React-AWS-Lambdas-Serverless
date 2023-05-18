@@ -1,0 +1,22 @@
+// Colors
+$color_background: #000000;
+$color_background_secondary:  rgb(32, 31, 31);
+$color_hover:  rgb(57, 57, 57);
+$color_text_principal: #2f3843;
+$color_text_secondary: #fee804;
+$color_checks: #28B463;
+$color_email: #A93226;
+$color_icon: #6401CD;
+
+// Screens
+$screen_4k: 2560px;
+$screen_laptop_l: 1440px;
+$screen_laptop: 1024px;
+$screen_tablet: 768px;
+$screen_mobile_l: 425px;
+$screen_mobile_m: 375px;
+$screen_mobile_s: 320px;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+$font_principal: 'Rubik', sans-serif;

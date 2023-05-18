@@ -1,0 +1,134 @@
+@import "../globals/Globals";
+
+.Div_Company_principal {
+
+    .Div_header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+
+        h1 {
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+
+
+    .Div_table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 90vw;
+        max-height: 84vh;
+
+        .Table_container {
+            background-color: $color_hover;
+            width: 97%;
+            
+
+            .Table_head {
+
+                .Cell_item {
+                    color: $color_text_secondary;
+                    font-size: 20px;
+                    font-weight: bold;
+                    border-bottom-color: #464545;
+                }
+            }
+
+            .Table_row {
+                .Cell_item {
+                    color: #fff;
+                    font-size: 15px;
+                    font-weight: 300;
+                    border-bottom-color: #464545;
+
+                    .Button_icon {
+                        color: #fff;
+                    }
+
+                    .Button_icon:hover {
+                        color: $color_text_secondary;
+                        background-color: rgb(85, 84, 84);
+
+                    }
+
+
+                }
+            }
+        }
+    }
+
+
+
+
+}
+
+.Dialog_title {
+    text-align: center;
+    font-size: 24px !important;
+    color: $color_hover;
+    font-weight: bold !important;
+}
+
+
+.Div_button_container {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+    .Button {
+        color: $color_hover;
+        border-radius: 20px;
+        width: 140px;
+    }
+
+    .Add{
+        background-color: $color_text_secondary;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .Div_Company_principal {
+
+        .Div_header {
+            padding-top: 40px;
+            h1 {
+                font-size: 25px;
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+        .Div_table {
+            .Table_container {
+                .Table_head {
+    
+                    .Cell_item {
+                        color: $color_text_secondary;
+                        font-size: 18px;
+                        font-weight: bold;
+                        border-bottom-color: #464545;
+                    }
+                }
+    
+                .Table_row {
+                    .Cell_item {
+                        color: #fff;
+                        font-size: 14px;
+                        font-weight: 300;
+                        border-bottom-color: #464545;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,15 @@
+@import "../globals/Globals";
+
+.Div_Home {
+    height: 100%;
+    background-color: $color_background_secondary;
+
+    .Nav_bar{
+        background-color: $color_background_secondary;
+
+        .Nav_icon{
+            color: $color_text_secondary;
+        }
+    }
+
+}
