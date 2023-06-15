@@ -61,7 +61,7 @@ function DrawerComponent(props) {
           label={role === "admin" ? "Admin" : "Externo"}
         />
         <Divider className='Divider' />
-        <Button onClick={handleLogout} color='secondary' variant="text">
+        <Button onClick={handleLogout} color='primary' variant="text">
           Cerrar sesión
         </Button>
       </div>

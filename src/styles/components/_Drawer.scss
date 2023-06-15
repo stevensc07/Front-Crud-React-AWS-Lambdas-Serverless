@@ -1,31 +1,33 @@
 @import "../globals/Globals";
 
 .Div_Drawer_content {
-   background-color: $color_background_secondary;
+   background-color:#0e2f57 ;
    height: 100%;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: space-between;
    padding-bottom: 30px;
+  
 
    .Div_drawer_footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #fff;
+    color: $color_background;
     width: 80%;
 
     .Chip_user{
         margin-bottom: 20px;
         width: 70%;
-        color: #fff;
+        color: $color_background;
     }
 
     .Divider{
-        border-color: #fff;
+        border-color: $color_background;
         width: 100%;
         margin-bottom: 10px;
+        
 
     }
    }
@@ -33,23 +35,23 @@
    .Logo_drawer{
     width: 80%;
     height: 150px;
-    background-image: url("../../asset/logo.png");
+    background-image: url("../../asset/logo_blanco.webp");
     background-size: contain;
     background-repeat: no-repeat;
    }
 
    
    .List_item{
-    color: #fff;
+    color: $color_background;
     border-radius: 50px;
     margin-bottom: 20px;
     height: 60px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: $color_hover;
+    background-color: #0e3957;
 
     .List_icon{
-        color: #fff;
+        color: $color_background;
     }
    }
 

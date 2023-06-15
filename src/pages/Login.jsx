@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import jwt_decode from "jwt-decode";
 import Swal from 'sweetalert2';
 import AppContext from '../context/AppContext';
-
+import Waves from '../components/waves';
 // Components
 import Loader from '../components/Loader';
 
@@ -50,8 +50,9 @@ const Login = () => {
   return (
     <div className='Div_Login' data-testid="login">
       <Loader isLoad={isLoad} onclose={() => { setIsLoad(false) }}></Loader>
+      <Waves className='Waves' />
       <div className='Div_form_container'>
-        <div className='Div_logo'></div>
+      <div className='Div_logo'></div>
         <div className='Div_center'>
           <div className='Div_form'>
             <h1>Inicia sesión</h1>
@@ -60,8 +61,9 @@ const Login = () => {
             <Button onClick={handleLogin} className='button' variant="contained">Entrar</Button>
           </div>
         </div>
+       
       </div>
-      <div className='Div_background'></div>
+     
     </div>
   );
 };

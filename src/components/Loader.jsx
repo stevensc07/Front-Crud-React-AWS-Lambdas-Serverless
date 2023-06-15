@@ -9,7 +9,7 @@ function Loader(props) {
   return (
     <div className="Div_loader">
       <Backdrop
-        sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        sx={{ color: '$color_background', zIndex: (theme) => theme.zIndex.drawer + 1 }}
         open={isLoad}
       >
         <CircularProgress color="secondary" />

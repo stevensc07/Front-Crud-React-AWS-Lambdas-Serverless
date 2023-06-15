@@ -159,7 +159,7 @@ function Inventory(props) {
                         <Button disabled={!data} sx={{ mr: 2 }} onClick={handleClickOpen} color="secondary" variant="outlined" startIcon={<Add />}>
                             Agregar
                         </Button>
-                        <Button color="secondary" disabled={!data} onClick={handleSendEmail} variant="outlined" startIcon={<Download />}>
+                        <Button color="secondary" disabled={!data} sx={{ mr: 2 }} onClick={handleSendEmail} variant="outlined" startIcon={<Download />}>
                             Enviar archivo
                         </Button>
                     </div>
@@ -290,7 +290,7 @@ function Inventory(props) {
                 </DialogContent>
                 <DialogActions className='Div_button_container'>
                     <Button variant='outlined' className='Button cancel' onClick={handleClose}>Cancelar</Button>
-                    <Button disabled={formValidation.fullName || formValidation.quantity} className='Button Add' onClick={handleCreate}>Guardar</Button>
+                    <Button  disabled={formValidation.fullName || formValidation.quantity} className='Button Add' onClick={handleCreate}>Guardar</Button>
                 </DialogActions>
             </Dialog>
         </div>
